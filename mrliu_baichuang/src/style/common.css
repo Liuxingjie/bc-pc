@@ -1,0 +1,93 @@
+a,div,li,ul,span,p,h1,h2,h3,h4,h5,table,tr,td,th,ol,html,body,form,button,input{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+*{
+    margin:0;
+    padding:0;
+    transition: all 0.5s;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+button,input{
+    cursor: pointer;
+}
+input:hover{
+    box-shadow: 10px 10px 5px #888888;
+}
+
+html{
+    width:100%;
+    font-size: 100px;
+}
+body{
+    width:100%;
+}
+
+/* 公共样式 */
+.fr{
+    float: right;
+}
+.fl{
+    float:left;
+}
+.clear{
+    clear:both;
+}
+
+.positionA{
+    position: absolute;
+}
+.positionR{
+    position:relative;
+}
+
+.bgred{
+    color:red;
+}
+.bgwhite{
+    color: white;
+}
+
+.bgRed{
+    background:red;
+}
+.bgPrimary{
+    background:#ffffff;
+}
+.bggray{
+    color:gray;
+}
+
+
+.bgfont24{
+    font-size:0.24rem;
+}
+.bgfont20{
+    font-size:0.2rem;
+}
+.bgfont18{
+    font-size:0.18rem;
+}
+.bgfont16{
+    font-size:0.16rem;
+}
+.bgfont14{
+    font-size:0.14rem;
+}
+
+.textleft{
+    text-align:left;
+}
+.textright{
+    text-align:right;   
+}
+.textcenter{
+    text-align: center;
+}
